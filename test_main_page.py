@@ -1,6 +1,5 @@
 # pytest --user_language=es --browser_name=chrome test_items.py
-import time
-from .main_page import MainPage
+from .pages.main_page import MainPage
 from selenium.webdriver.common.by import By
 
 def test_guest_can_go_to_login_page(browser):
